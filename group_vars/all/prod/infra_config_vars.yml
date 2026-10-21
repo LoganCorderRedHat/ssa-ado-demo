@@ -1,0 +1,14 @@
+---
+# Shared OpenShift API connection vars for all component playbooks.
+# Playbooks set K8S_AUTH_* from host/token/verify_ssl in this file.
+api_host: "https://api.ocp.nrqr7.sandbox1071.opentlc.com:6443"
+host: "https://api.ocp.nrqr7.sandbox1071.opentlc.com:6443"
+token: "sha256~dFdAGl1xomuFSyX8FElCnEFKFVts8X3k899j2x6C_Ls"
+domain: "prod.rhlab"
+app_domain: "apps.ocp.nrqr7.sandbox1071.opentlc.com"
+apps_domain: "apps.ocp.nrqr7.sandbox1071.opentlc.com"
+app_domain_alt: "apps.ocp.nrqr7.sandbox1071.opentlc.com"
+apps_domain_alt: "apps.ocp.nrqr7.sandbox1071.opentlc.com"
+skip_tls_verify: true
+verify_ssl: false
+validate_certs: false

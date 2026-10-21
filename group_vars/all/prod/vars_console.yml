@@ -1,0 +1,9 @@
+---
+component_config:
+  console:
+    hostname: ''
+    storage: ''
+    replicas: 1
+hostname: ''
+storage: ''
+replicas: 1

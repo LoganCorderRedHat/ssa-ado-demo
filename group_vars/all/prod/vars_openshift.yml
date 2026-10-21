@@ -1,0 +1,29 @@
+---
+ocp_cert_manager_mode: cert
+ocp_awspca_namespace: cert-manager
+ocp_awspca_secret_name: awspca-creds
+ocp_awspca_issuer_name: awspca-clusterissuer
+ocp_awspca_region: us-gov-west-1
+ocp_awspca_pca_arn: ''
+idm:
+  acme_directory_url: ''
+  ca_bundle_file: ''
+api_host: https://api.ocp.nrqr7.sandbox1071.opentlc.com:6443
+host: https://api.ocp.nrqr7.sandbox1071.opentlc.com:6443
+domain: prod.rhlab
+apps_domain: apps.ocp.nrqr7.sandbox1071.opentlc.com
+app_domain: apps.ocp.nrqr7.sandbox1071.opentlc.com
+skip_tls_verify: true
+verify_ssl: false
+validate_certs: false
+openshift_install_htpasswd_during_bootstrap: false
+openshift_install_nfs_during_bootstrap: false
+openshift_install_iscsi_during_bootstrap: false
+state: add
+console_banner_state: add
+ocp_console_banner_state: add
+ocp_console_banner_text: Secret Cluster
+console_banner_text: Secret Cluster
+ocp_console_banner_location: BannerTop
+ocp_console_banner_background_color: '#1f7a1f'
+ocp_console_banner_text_color: '#ffffff'

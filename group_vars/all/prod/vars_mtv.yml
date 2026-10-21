@@ -1,0 +1,15 @@
+---
+component_config:
+  mtv:
+    hostname: ''
+    storage: ''
+    channel: release-v2.12
+    namespace: openshift-mtv
+    replicas: 1
+hostname: ''
+storage: ''
+channel: release-v2.12
+namespace: openshift-mtv
+replicas: 1
+operator_channel: release-v2.12
+name_space: openshift-mtv

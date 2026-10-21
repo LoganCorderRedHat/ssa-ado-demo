@@ -1,0 +1,30 @@
+[
+    {
+        "app": "console",
+        "category": "platform",
+        "dest": "playbooks/openshift/ado-configure-console-banner-bootstrap.yml",
+        "src": "openshift/ado-configure-console-banner-bootstrap.yml",
+        "target_platform": "openshift"
+    },
+    {
+        "app": "ocp_virtualization",
+        "category": "platform",
+        "dest": "playbooks/ocp_virtualization/ado-deploy-bootstrap.yml",
+        "src": "ocp_virtualization/ado-deploy-bootstrap.yml",
+        "target_platform": "openshift"
+    },
+    {
+        "app": "openshift_networking",
+        "category": "platform",
+        "dest": "playbooks/openshift_networking/ado-deploy-networking-bootstrap.yml",
+        "src": "openshift_networking/ado-deploy-networking-bootstrap.yml",
+        "target_platform": "openshift"
+    },
+    {
+        "app": "mtv",
+        "category": "platform",
+        "dest": "playbooks/mtv/ado-deploy-bootstrap.yml",
+        "src": "mtv/ado-deploy-bootstrap.yml",
+        "target_platform": "openshift"
+    }
+]

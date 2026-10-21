@@ -1,0 +1,22 @@
+---
+component_config:
+  ocp_virtualization:
+    hostname: ''
+    storage: ''
+    channel: stable
+    enable_kube_secondary_dns: false
+    replicas: 1
+    operator_channel: stable
+hostname: ''
+storage: ''
+channel: stable
+enable_kube_secondary_dns: false
+replicas: 1
+operator_channel: stable
+operator_name: kubevirt-hyperconverged
+operator_source: redhat-operators
+operator_source_namespace: openshift-marketplace
+name_space: openshift-cnv
+operator_subscription_namespace: openshift-cnv
+operatorgroup: kubevirt-hyperconverged-group
+ocp_virtualization_install_enable_kube_secondary_dns: false
